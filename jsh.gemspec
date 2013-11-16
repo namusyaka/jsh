@@ -3,8 +3,8 @@ require File.expand_path("../lib/jsh/version", __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "jsh"
   gem.version       = JSH::VERSION
-  gem.description   = "Interactive shell for JavaScript which is written in Ruby."
-  gem.summary       = "Interactive shell for JavaScript"
+  gem.description   = "Interactive interpreter for JavaScript which is written in Ruby."
+  gem.summary       = "Interactive interpreter for JavaScript"
   gem.author        = "namusyaka"
   gem.email         = "namusyaka@gmail.com"
   gem.homepage      = "https://github.com/namusyaka/jsh"
