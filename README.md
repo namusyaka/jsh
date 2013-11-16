@@ -1,6 +1,18 @@
 # JSH
 
+[![Build Status](https://travis-ci.org/namusyaka/jsh.png)](https://travis-ci.org/namusyaka/jsh)
+
 This is an interactive shell for JavaScript which is written in Ruby.
+
+## Installation
+
+add this line to your Gemfile.
+
+`gem 'jsh'`
+
+or
+
+`$ gem install jsh`
 
 ## Usage
 
