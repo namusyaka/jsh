@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+$:.unshift(File.expand_path("../../lib", __FILE__))
+
+require 'jsh'
+require 'optparse'
+
+options, option_parser = {}, OptionParser.new
+option_parser.version = JSH::VERSION
+
+option_parser.on('-r', '--readline BOOLEAN', TrueClass){|v| p(v.class);options[:readline] = v }
+option_parser.on('--noprompt'){|v| options[:noprompt] = v }
+
+option_parser.parse!(ARGV)
+
+JSH.start(options)
